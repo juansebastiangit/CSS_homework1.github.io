@@ -9,6 +9,8 @@ header{
 
 nav{
     background-color: rgb(240, 222, 176);
+    display: inline-block;
+    width: 80%;
 }
 
 main{
@@ -18,12 +20,21 @@ main{
 
 footer{
     background-color: rgb(240, 222, 176);
+    clear:both;
+    
 }
-
-li{
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+/* li{
     display: inline-block;
     width: 25%;
-}
+    background-color: rgb(243, 208, 120);
+    
+} */
 
 h1{
     text-align:center;
@@ -33,4 +44,35 @@ h1{
 
 p{
     line-height: 110%;
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(73, 83, 22);
+}
+header img{
+    width: 10%;
+    position: relative;
+    top: 45px;
+}
+.current{
+    font-weight: bold;
+    background-color: rgb(220, 187, 103);
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns:40% 40%;
+    column-gap: 5%;
+    row-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;}
+.grid>img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
