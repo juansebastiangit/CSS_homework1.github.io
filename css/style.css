@@ -50,16 +50,19 @@ nav a{
     text-decoration: none;
     color:rgb(73, 83, 22);
 }
+
 header img{
     width: 10%;
     position: relative;
     top: 45px;
 }
+
 .current{
     font-weight: bold;
     background-color: rgb(220, 187, 103);
     
 }
+
 .grid{
     display: grid;
     grid-template-columns:40% 40%;
@@ -67,10 +70,13 @@ header img{
     row-gap: 5%;
     align-items: center;
     justify-content: center;
-    overflow: scroll;}
+    overflow: scroll;
+}
+
 .grid>img{
     width: 100%;
 }
+
 .flex{
     display: flex;
     flex-wrap: wrap;
